@@ -339,7 +339,7 @@ parameter_types! {
 		)) / 5) as u32;
 	pub Schedule: pallet_contracts::Schedule<Runtime> = {
 		let mut schedule: pallet_contracts::Schedule<Runtime> = Default::default();
-		schedule.limits.code_len = 256 * 1024;
+		schedule.limits.code_len = 1024 * 1024;
 		schedule
 	};
 }
