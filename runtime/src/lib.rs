@@ -342,6 +342,7 @@ parameter_types! {
 		schedule.limits.code_len = 256 * 1024;
 		schedule
 	};
+}
 
 impl pallet_contracts::Config for Runtime {
 	type Time = Timestamp;
