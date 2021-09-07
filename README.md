@@ -1,4 +1,4 @@
-# canvas-node
+# Modified canvas-node
 
 This is a node implementation for Canvas, a [Substrate](https://github.com/paritytech/substrate)
 chain for smart contracts.
